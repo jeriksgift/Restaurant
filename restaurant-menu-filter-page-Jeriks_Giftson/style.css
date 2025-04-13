@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url('./bg.png');
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #3A3F1F;
+}
+a{
+    text-decoration: none;
+    color: #3A3F1F;
+    font-family: cursive;
+    margin: 10px;
+}
+header{
+    background-color: #ff9900;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    text-align: center;
+    color: #3A3F1F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    flex-wrap: wrap;
+    left: 50%;
+    min-width: 80%;
+    transform: translateX(-50%);
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+    height: 100vh;
+}
+img{
+    border-radius: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    border: dotted 2px #3A3F1F;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#foods{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.food-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+}
+.food-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ff9900;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+}
+.foodimg{
+    height: 100px;
+    width: 100px;
+}
+h2{
+    font-size: xxx-large;
+}
+h3{
+    font-size: xx-large;
+}
+h4{
+    font-size: x-large;
+}
+p{
+    font-size: large;
+    margin: 10px;
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 5px;
+    margin-bottom: 75px;
+    font-size: large;
+}
+.social-media-icon{
+    height: 50px;
+    width: 50px;    
+}
+footer{
+    background-color: #ff9900;
+    padding: 20px;
+    color: 3A3F1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
